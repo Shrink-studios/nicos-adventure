@@ -1,0 +1,54 @@
+{
+    "name": "Nicos adventure",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.13.50",
+        "tag": "v1.13.50",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/e9c50462c9b0206aeda07293a60ac8e427b19c34",
+        "target": "1.12.46",
+        "pxt": "9.3.6",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FFF1E8",
+        "#FF004D",
+        "#FF77A8",
+        "#FFA300",
+        "#FFEC27",
+        "#008751",
+        "#00E436",
+        "#29ADFF",
+        "#C2C3C7",
+        "#7E2553",
+        "#83769C",
+        "#5F574F",
+        "#FFCCAA",
+        "#AB5236",
+        "#1D2B53"
+    ]
+}
